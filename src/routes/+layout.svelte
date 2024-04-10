@@ -3,6 +3,7 @@
 	import { Toaster } from '$lib/components/ui/sonner';
 	import Button from '$lib/components/ui/button/button.svelte';
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu';
+	import { Separator } from '$lib/components/ui/separator';
 </script>
 
 <Toaster />
@@ -47,10 +48,10 @@
 						<DropdownMenu.Group>
 							<DropdownMenu.Label>Main Menu</DropdownMenu.Label>
 							<DropdownMenu.Separator />
-							<DropdownMenu.Item>Profile</DropdownMenu.Item>
-							<DropdownMenu.Item>Billing</DropdownMenu.Item>
-							<DropdownMenu.Item>Team</DropdownMenu.Item>
-							<DropdownMenu.Item>Subscription</DropdownMenu.Item>
+							<DropdownMenu.Item href="/projects">Projects</DropdownMenu.Item>
+							<DropdownMenu.Item href="/blog">Blogs</DropdownMenu.Item>
+							<DropdownMenu.Item href="/about">About</DropdownMenu.Item>
+							<DropdownMenu.Item href="/contact">Contact</DropdownMenu.Item>
 						</DropdownMenu.Group>
 					</DropdownMenu.Content>
 				</DropdownMenu.Root>
@@ -63,16 +64,73 @@
 					<Button href="/blog" variant="link">Blogs</Button>
 				</li>
 				<li>
-					<Button href="/contact" variant="link">About</Button>
+					<Button href="/about" variant="link">About</Button>
 				</li>
 				<li>
-					<Button href="/about" variant="link">Contact</Button>
+					<Button href="/contact" variant="link">Contact</Button>
 				</li>
 			</ul>
 		</nav>
 	</header>
-	<article class="pt-24">
-		<slot />
+	<article class="h-full py-24">
+		<main class="">
+			<slot />
+			<Separator class="mb-8 mt-24" />
+			<footer class="flex h-full w-full items-start justify-between">
+				<div>
+					<h1 class="underline">Karl Robeck Alferez</h1>
+					<ul>
+						<li>
+							<Button href="/projects" class="w-full justify-start px-0" variant="link"
+								>Built in sveltekit</Button
+							>
+						</li>
+						<li>
+							<Button href="/projects" class="w-full justify-start px-0" variant="link"
+								>UI by shadcn sveltekit</Button
+							>
+						</li>
+						<li>
+							<Button href="/projects" class="w-full justify-start px-0" variant="link"
+								>Github repository</Button
+							>
+						</li>
+					</ul>
+				</div>
+				<div class="flex flex-row gap-5">
+					<div>
+						<h2>Navigation</h2>
+						<ul class="my-6 ml-6 list-disc [&>li]:mt-2">
+							<li>
+								<Button href="/projects" variant="link">Projects</Button>
+							</li>
+							<li>
+								<Button href="/blog" variant="link">Blog</Button>
+							</li>
+							<li>
+								<Button href="/contact" variant="link">Contact</Button>
+							</li>
+							<li>
+								<Button href="/about" variant="link">About</Button>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h2>Socials</h2>
+						<ul class="my-6 ml-6 list-disc [&>li]:mt-2">
+							<li>
+								<Button href="/projects" variant="link">Facebook</Button>
+							</li>
+							<li>
+								<Button href="/projects" variant="link">Github</Button>
+							</li>
+							<li>
+								<Button href="/projects" variant="link">LinkedIn</Button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</main>
 	</article>
-	<footer></footer>
 </div>
