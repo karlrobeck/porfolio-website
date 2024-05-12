@@ -8,7 +8,7 @@
 
 <Toaster />
 
-<div class="font-jetbrains flex h-screen flex-col px-4 py-8 sm:px-28">
+<div class="flex h-screen flex-col px-4 py-8 font-jetbrains md:px-28">
 	<header class="rounded-md border p-4">
 		<nav class="flex items-center justify-between">
 			<Button href="/" size="lg" variant="link" class="gap-2">
@@ -27,7 +27,7 @@
 				>
 				<span class="text-3xl"> Robeck </span>
 			</Button>
-			<div class="flex p-4 sm:hidden">
+			<div class="flex p-4 md:hidden">
 				<DropdownMenu.Root>
 					<DropdownMenu.Trigger
 						><svg
@@ -56,7 +56,7 @@
 					</DropdownMenu.Content>
 				</DropdownMenu.Root>
 			</div>
-			<ul class="hidden sm:flex">
+			<ul class="hidden md:flex">
 				<li>
 					<Button href="/projects" variant="link">Projects</Button>
 				</li>
@@ -76,9 +76,9 @@
 		<main class="">
 			<slot />
 			<Separator class="mb-8 mt-24" />
-			<footer class="flex h-full w-full items-start justify-between">
+			<footer class="flex h-full w-full items-start justify-center md:justify-between">
 				<div>
-					<h1 class="underline">Karl Robeck Alferez</h1>
+					<span class="lead underline">Karl Robeck Alferez</span>
 					<ul>
 						<li>
 							<Button href="/projects" class="w-full justify-start px-0" variant="link"
@@ -97,9 +97,9 @@
 						</li>
 					</ul>
 				</div>
-				<div class="flex flex-row gap-5">
+				<div class="hidden flex-row gap-5 md:flex">
 					<div>
-						<h2>Navigation</h2>
+						<span class="lead">Navigation</span>
 						<ul class="my-6 ml-6 list-disc [&>li]:mt-2">
 							<li>
 								<Button href="/projects" variant="link">Projects</Button>
@@ -116,7 +116,7 @@
 						</ul>
 					</div>
 					<div>
-						<h2>Socials</h2>
+						<span class="lead">Socials</span>
 						<ul class="my-6 ml-6 list-disc [&>li]:mt-2">
 							<li>
 								<Button href="/projects" variant="link">Facebook</Button>

@@ -16,6 +16,7 @@
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@types/eslint": "^8.56.0",
+		"@types/showdown": "^2.0.6",
 		"@typescript-eslint/eslint-plugin": "^7.0.0",
 		"@typescript-eslint/parser": "^7.0.0",
 		"autoprefixer": "^10.4.16",
@@ -41,6 +42,7 @@
 		"embla-carousel-svelte": "^8.0.2",
 		"lucide-svelte": "^0.367.0",
 		"mode-watcher": "^0.3.0",
+		"showdown": "^2.1.0",
 		"svelte-sonner": "^0.3.22",
 		"tailwind-merge": "^2.2.2",
 		"tailwind-variants": "^0.2.1"
