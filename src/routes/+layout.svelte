@@ -56,7 +56,7 @@
 					</DropdownMenu.Content>
 				</DropdownMenu.Root>
 			</div>
-			<ul class="hidden md:flex">
+			<ul class="hidden md:flex md:list-none">
 				<li>
 					<Button href="/projects" variant="link">Projects</Button>
 				</li>

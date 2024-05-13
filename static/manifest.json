@@ -2,27 +2,27 @@
     "blogs": [
         {
             "name": "My first Blog",
-            "summary": "",
+            "summary": "A journal about space!",
             "date": "April 27 2024",
             "fileLoc": "/markdown/April27th.md"
         },
         {
             "name": "My second Blog",
-            "summary": "",
-            "date": "",
-            "fileLoc": "/markdown/hello.md"
+            "summary": "A journal about food!",
+            "date": "April 28 2024",
+            "fileLoc": "/markdown/April28th.md"
         },
         {
             "name": "My third Blog",
-            "summary": "",
-            "date": "",
-            "fileLoc": "/markdown/hello.md"
+            "summary": "A journal about rust memory management.",
+            "date": "April 29 2024",
+            "fileLoc": "/markdown/April29th.md"
         },
         {
             "name": "My forth Blog",
-            "summary": "",
-            "date": "",
-            "fileLoc": "/markdown/hello.md"
+            "summary": "A journal about FastAPI",
+            "date": "April 30 2024",
+            "fileLoc": "/markdown/April30th.md"
         },
         {
             "name": "My first Blog",
