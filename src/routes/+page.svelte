@@ -25,7 +25,7 @@
 <section class="grid h-full grid-cols-1 items-center gap-5 md:grid-cols-2">
 	<div class="flex flex-col gap-5">
 		<Button
-			class="cursor-none scroll-m-20 justify-start px-0 text-4xl font-extrabold tracking-tight lg:text-5xl"
+			class="cursor-none scroll-m-20 justify-start px-0 text-3xl font-extrabold tracking-tight lg:text-5xl"
 			role="heading"
 			variant="link"
 		>
@@ -104,7 +104,7 @@
 <Separator class="my-24" />
 <section class="flex h-full flex-col gap-10 py-4">
 	<Button
-		class="cursor-none scroll-m-20 justify-start px-0 text-4xl font-extrabold tracking-tight lg:text-5xl"
+		class="w-full cursor-none scroll-m-20 justify-start px-0 text-4xl font-extrabold tracking-tight lg:text-5xl"
 		role="heading"
 		variant="link"
 	>
