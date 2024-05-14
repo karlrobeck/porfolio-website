@@ -49,7 +49,7 @@
 							<DropdownMenu.Label>Main Menu</DropdownMenu.Label>
 							<DropdownMenu.Separator />
 							<DropdownMenu.Item href="/projects">Projects</DropdownMenu.Item>
-							<DropdownMenu.Item href="/blog">Blogs</DropdownMenu.Item>
+							<DropdownMenu.Item href="/blogs">Blogs</DropdownMenu.Item>
 							<DropdownMenu.Item href="/about">About</DropdownMenu.Item>
 							<DropdownMenu.Item href="/contact">Contact</DropdownMenu.Item>
 						</DropdownMenu.Group>
