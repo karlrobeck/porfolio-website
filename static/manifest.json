@@ -4,79 +4,106 @@
             "name": "My first Blog",
             "summary": "A journal about space!",
             "date": "April 27 2024",
-            "fileLoc": "/markdown/April27th.md"
+            "markdownLink": "/markdown/April27th.md"
         },
         {
             "name": "My second Blog",
             "summary": "A journal about food!",
             "date": "April 28 2024",
-            "fileLoc": "/markdown/April28th.md"
+            "markdownLink": "/markdown/April28th.md"
         },
         {
             "name": "My third Blog",
             "summary": "A journal about rust memory management.",
             "date": "April 29 2024",
-            "fileLoc": "/markdown/April29th.md"
+            "markdownLink": "/markdown/April29th.md"
         },
         {
             "name": "My forth Blog",
             "summary": "A journal about FastAPI",
             "date": "April 30 2024",
-            "fileLoc": "/markdown/April30th.md"
+            "markdownLink": "/markdown/April30th.md"
         },
         {
             "name": "My first Blog",
             "summary": "",
             "date": "",
-            "fileLoc": "/markdown/hello.md"
+            "markdownLink": "/markdown/hello.md"
         },
         {
             "name": "My first Blog",
             "summary": "",
             "date": "",
-            "fileLoc": "/markdown/hello.md"
+            "markdownLink": "/markdown/hello.md"
         },
         {
             "name": "My first Blog",
             "summary": "",
             "date": "",
-            "fileLoc": "/markdown/hello.md"
+            "markdownLink": "/markdown/hello.md"
         },
         {
             "name": "My first Blog",
             "summary": "",
             "date": "",
-            "fileLoc": "/markdown/hello.md"
+            "markdownLink": "/markdown/hello.md"
         },
         {
             "name": "My first Blog",
             "summary": "",
             "date": "",
-            "fileLoc": "/markdown/hello.md"
+            "markdownLink": "/markdown/hello.md"
         },
         {
             "name": "My first Blog",
             "summary": "",
             "date": "",
-            "fileLoc": "/markdown/hello.md"
+            "markdownLink": "/markdown/hello.md"
         },
         {
             "name": "My first Blog",
             "summary": "",
             "date": "",
-            "fileLoc": "/markdown/hello.md"
+            "markdownLink": "/markdown/hello.md"
         },
         {
             "name": "My first Blog",
             "summary": "",
             "date": "",
-            "fileLoc": "/markdown/hello.md"
+            "markdownLink": "/markdown/hello.md"
         },
         {
             "name": "My first Blog",
             "summary": "",
             "date": "",
-            "fileLoc": "/markdown/hello.md"
+            "markdownLink": "/markdown/hello.md"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Banana Classroom",
+            "status": "Ongoing",
+            "description": "Banana Classroom is a web application that helps teachers to create and manage online quizzes for their students. It is built using sveltekit, tailwindcss, vercel and dynamodb.",
+            "repository": "https://github.com/MarahuyoDevs/banana-classroom-frontend",
+            "link": "https://banana-classroom.vercel.app"
+        },
+        {
+            "title": "Pypox",
+            "status": "Discontinued",
+            "description": "Pypox is a web application framework in python that helps developers to create web applications using python. It is built using starlette, uvicorn, and python.",
+            "repository": "https://github.com/MarahuyoDevs/pypox"
+        },
+        {
+            "title": "Crab-rs",
+            "status": "Ongoing",
+            "description": "A CLI tool that helps developers to automate pipline process in creating web applications using rust lang. It is built using clap-rs.",
+            "repository": "https://github.com/MarahuyoDevs/crab-rs"
+        },
+        {
+            "title": "Bison-ui",
+            "status": "Planned",
+            "description": "A frontend UI library that helps developers to create beautiful and user-friendly web applications using sveltekit and tailwindcss. It is built using sveltekit and tailwindcss.",
+            "repository": "https://github.com/MarahuyoDevs/crab-rs"
         }
     ]
 }

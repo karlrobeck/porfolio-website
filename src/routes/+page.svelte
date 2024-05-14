@@ -7,7 +7,6 @@
 	import type { CarouselAPI } from '$lib/components/ui/carousel/context';
 
 	let api: CarouselAPI;
-	let carouselCount = 0;
 
 	// Run the code every 2 seconds
 	setInterval(() => {
@@ -24,13 +23,7 @@
 
 <section class="grid h-full grid-cols-1 items-center gap-5 md:grid-cols-2">
 	<div class="flex flex-col gap-5">
-		<Button
-			class="cursor-none scroll-m-20 justify-start px-0 text-3xl font-extrabold tracking-tight lg:text-5xl"
-			role="heading"
-			variant="link"
-		>
-			Let's make it simple
-		</Button>
+		<h1>Let's make it simple</h1>
 		<p class="text-justify leading-7 [&:not(:first-child)]:mt-6">
 			Hi, my name is karl robeck alferez, i am software engineer specialize in building high
 			performance web application in python, javascript, and rust language
@@ -111,7 +104,7 @@
 		My Projects
 	</Button>
 	<div class="grid h-full grid-cols-1 gap-5 md:grid-cols-4">
-		{#each $page.data.content.projects as project}
+		{#each $page.data.manifest.projects as project}
 			<Card.Root class="flex flex-col justify-between">
 				<Card.Header>
 					<Card.Title tag="h1">{project.title}</Card.Title>

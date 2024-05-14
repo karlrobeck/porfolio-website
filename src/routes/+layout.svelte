@@ -61,7 +61,7 @@
 					<Button href="/projects" variant="link">Projects</Button>
 				</li>
 				<li>
-					<Button href="/blog" variant="link">Blogs</Button>
+					<Button href="/blogs" variant="link">Blogs</Button>
 				</li>
 				<li>
 					<Button href="/about" variant="link">About</Button>
@@ -105,7 +105,7 @@
 								<Button href="/projects" variant="link">Projects</Button>
 							</li>
 							<li>
-								<Button href="/blog" variant="link">Blog</Button>
+								<Button href="/blogs" variant="link">Blog</Button>
 							</li>
 							<li>
 								<Button href="/contact" variant="link">Contact</Button>

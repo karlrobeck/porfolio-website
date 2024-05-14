@@ -3,12 +3,12 @@
 
 	import * as Card from '$lib/components/ui/card';
 	import Button from '$lib/components/ui/button/button.svelte';
-	export let data: PageData;
+	import { page } from '$app/stores';
 </script>
 
 <h1 class="pb-12">My Blogs</h1>
 <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
-	{#each data.manifest.blogs || [] as blog}
+	{#each $page.data.manifest.blogs || [] as blog}
 		<Card.Root>
 			<Card.Header>
 				<Card.Title>{blog.name}</Card.Title>
@@ -18,7 +18,7 @@
 				<p>{blog.summary}</p>
 			</Card.Content>
 			<Card.Footer>
-				<Button href="/blog{blog.fileLoc.replace('/markdown', '')}">Visit</Button>
+				<Button href="/blogs{blog.markdownLink.replace('/markdown', '')}">Visit</Button>
 			</Card.Footer>
 		</Card.Root>
 	{/each}

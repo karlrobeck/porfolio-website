@@ -18,7 +18,7 @@ As lunchtime approaches, I find myself craving something hearty and satisfying. 
 
 <br>
 
-##### **Afternoon Indulgences:**
+#### **Afternoon Indulgences:**
 In the afternoon, I treat myself to a decadent slice of chocolate cake, rich and moist with layers of velvety ganache. Each bite is a symphony of flavors, from the deep cocoa notes to the subtle hint of espresso. Paired with a steaming cup of tea, it's the perfect pick-me-up to combat the midday slump.
 
 <br>
