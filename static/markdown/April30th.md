@@ -32,7 +32,7 @@ We passed the `repository` and our application to AppCon and hopefully they acce
 
 ## Pizza Date
 
-Well enough of the AppCon stuff. after the 5pm Submission deadline. my and my girlfriend Vivien just have a small celebration.
+Well enough of the AppCon stuff. after the 5pm Submission deadline. me and my girlfriend Vivien just have a small celebration.
 
 ![Image of me and my girlfriend eating pizza](/pizza_date_april_30.jpg)
 
