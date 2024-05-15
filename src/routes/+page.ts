@@ -3,7 +3,7 @@ import type { PageLoad } from "./$types";
 export const load: PageLoad = async (event) => {
 
     // get the manifest data
-    const manifest: Manifest = await (await event.fetch('/manifest.json')).json()
+    const manifest: Manifest = await (await event.fetch('/controls.json')).json()
 
     return {
         head: {
